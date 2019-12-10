@@ -1,0 +1,13 @@
+﻿@page
+@model RazorPagesSample.CreateModel
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<div asp-validation-summary="All"></div>
+<form method="post">
+    Name: <input asp-for="Customer.Name"  />
+    <input type="submit" />
+</form>
